@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tehtävä01
 {
-    class Hissi
+    class Hissi // hissiluokka
     {
         private int kerros = 1;
         public int Kerros
@@ -24,7 +24,7 @@ namespace tehtävä01
             }
         }
 
-        // tulostus metodi
+        // tulostusmetodi
         public void Tulostus() 
         {
             Console.WriteLine("Elevator is now in floor: " + kerros);

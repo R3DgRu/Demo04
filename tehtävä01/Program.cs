@@ -10,9 +10,9 @@ namespace tehtävä01
     {
         static void Main(string[] args)
         {
-            Hissi hissi = new Hissi();
+            Hissi hissi = new Hissi(); // luodaan uusi hissi
 
-            int number = 1;
+            int number = 1; // oletuskerros hissille on 1
 
             while (number != 0) // silmukka kysyy käyttäjältä kerrosta kunnes hän syöttää nollan
             {
