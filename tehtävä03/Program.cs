@@ -26,7 +26,7 @@ namespace tehtävä03
             boss.auto = "Pagani Huayra";
             boss.bonus = 15000;
 
-            boss.boss_tulostus(); // tulostaa pomon tiedot
+            boss.boss_tulostus(); // tulostetaan pomon tiedot
         }
     }
 }
